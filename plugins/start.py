@@ -30,7 +30,7 @@ async def start_message(c,m):
                     ],  
                     [
                         InlineKeyboardButton("❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/Kingvj01'),
-                        InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇ", url='https://t.me/VJ_Botz')
+                        InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇ", callback_data='about')
                     ]
                 ]
             )
