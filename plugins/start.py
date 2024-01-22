@@ -16,7 +16,7 @@ ID - <code>{}</code>
 Nᴀᴍᴇ - {}</b>
 """
 
-@Client.on_message(filters.command('start'))
+@Client.on_message(filters.command('sart'))
 async def start_message(c,m):
     await db.is_user_exist(m.from_user.id)
     await db.add_user(m.from_user.id, m.from_user.first_name)
